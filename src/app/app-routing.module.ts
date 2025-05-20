@@ -5,6 +5,8 @@ import { AuthGuard } from './auth/auth.guard';
 import { RoleGuard } from './auth/role.guard';
 
 import { TablesComponent } from './tables/tables.component';
+import { TableDetailComponent } from './tables/table-detail/table-detail.component';
+import { UserManagementComponent } from './admin/user-management/user-management.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -17,6 +19,12 @@ export const routes: Routes = [
     path: 'tables/:id',
     component: TableDetailComponent,
     canActivate: [AuthGuard],
+  },
+  {
+    path: 'users',
+    component: UserManagementComponent,
+    canActivate: [AuthGuard, RoleGuard],
+    data: { allowedRoles: ['dueño'] },
   },
   { path: '', redirectTo: '/tables', pathMatch: 'full' },
   { path: '**', redirectTo: '/tables' },
