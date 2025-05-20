@@ -2966,6 +2966,10 @@ export {
   ENTER,
   ESCAPE,
   SPACE,
+  PAGE_UP,
+  PAGE_DOWN,
+  END,
+  HOME,
   LEFT_ARROW,
   UP_ARROW,
   RIGHT_ARROW,
@@ -2982,6 +2986,7 @@ export {
   ObserversModule,
   InteractivityChecker,
   FocusTrapFactory,
+  CdkTrapFocus,
   LiveAnnouncer,
   A11yModule,
   _IdGenerator,
@@ -2991,6 +2996,7 @@ export {
   addAriaReferencedId,
   removeAriaReferencedId,
   AriaDescriber,
+  MATERIAL_SANITY_CHECKS,
   MatCommonModule
 };
-//# sourceMappingURL=chunk-KNOPGSHE.js.map
+//# sourceMappingURL=chunk-LF4PUKRG.js.map

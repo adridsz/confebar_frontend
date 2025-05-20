@@ -4,25 +4,22 @@ import {
   TemplatePortal
 } from "./chunk-7SEBUT7G.js";
 import {
-  _isTestEnvironment
-} from "./chunk-42FJBLFI.js";
-import {
-  coerceCssPixelValue
-} from "./chunk-IBYU652R.js";
-import {
   ScrollDispatcher,
   ScrollingModule,
   ViewportRuler
 } from "./chunk-XMEXDW22.js";
 import {
-  supportsScrollBehavior
-} from "./chunk-2O4WY5GE.js";
+  _isTestEnvironment
+} from "./chunk-42FJBLFI.js";
+import {
+  coerceCssPixelValue
+} from "./chunk-JXBCBRYI.js";
 import {
   ESCAPE,
   _IdGenerator,
   _getEventTarget,
   hasModifierKey
-} from "./chunk-KNOPGSHE.js";
+} from "./chunk-LF4PUKRG.js";
 import {
   coerceArray
 } from "./chunk-67QXL6TC.js";
@@ -30,6 +27,9 @@ import {
   _CdkPrivateStyleLoader,
   _bindEventWithOptions
 } from "./chunk-BIXINGYW.js";
+import {
+  supportsScrollBehavior
+} from "./chunk-2O4WY5GE.js";
 import {
   BidiModule,
   Directionality
@@ -2891,9 +2891,10 @@ export {
   OverlayConfig,
   OverlayContainer,
   OverlayRef,
+  FlexibleConnectedPositionStrategy,
   Overlay,
   CdkOverlayOrigin,
   CdkConnectedOverlay,
   OverlayModule
 };
-//# sourceMappingURL=chunk-E7S7KFZL.js.map
+//# sourceMappingURL=chunk-WS6AMDFI.js.map
